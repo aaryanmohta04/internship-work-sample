@@ -1,0 +1,14 @@
+{
+    "type": "mysql",
+    "host": "172.16.50.6",
+    "port": 3306,
+    "username": "varun",
+    "password": "Dp!2#q45sJ@",
+    "database": "erp_db",
+    "entities": ["dist/**/*.entity.js"],
+    "migrations": ["dist/migration/*.js"],
+    "cli": {
+      "migrationsDir": "src/migration"
+    },
+    "synchronize": false
+  }
